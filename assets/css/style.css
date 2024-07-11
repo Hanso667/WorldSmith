@@ -1,0 +1,82 @@
+.body{
+    display: flex;
+    flex-direction: column;
+}
+.topo header{
+    width: 100%;
+    height: 5em;
+    background-color: brown;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.topo header h1{
+    text-decoration: underline;
+    padding: 10px;
+    background-color: rgb(194, 88, 88);
+    border-radius: 15%;
+    font-weight: bolder;
+    font-size: larger;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.logo img{
+    width: 5em;
+    margin-left: 1em;
+}
+.topo header nav{
+    margin-right: 5em;
+}
+.topo header a{
+    text-decoration: none;
+    color: black;
+    padding: 5px;
+    background-color: aliceblue;
+    border-radius: 15%;
+    border: 1px solid black;
+}
+.topo header ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.topo header li{
+    transition: 1s;
+    margin-left: 1em;
+}
+.topo header li img{
+    width: 2em;
+    border-radius: 100%;
+}
+.topo header li:hover{
+    transform: scale(1.1);
+    transition: 1s;
+}
+.centro{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+}
+.centro aside{
+    background-color: rgb(216, 54, 54);
+    padding-bottom: 50em;
+    width: 25%;
+    height: 100%;
+}
+.centro main{
+    background-color: rgb(201, 85, 85);
+    padding: 20em;
+    width: 100%;
+    height: 10em;
+}
+.base footer{
+    background-color: brown;
+    padding-bottom: 3em;
+    height: 3em;
+    width: 100%;
+}
